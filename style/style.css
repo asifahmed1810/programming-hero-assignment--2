@@ -417,13 +417,32 @@ main{
         top: 60px;
         right: 10px;
     }
+    .change-habit{
+        margin-top: 500px;
+    }
+    .change-habit{
+        margin-top: 850px;
+    }
+    .change-habit-content{
+        margin-bottom: 10px;
+    }
+    .change-habit-img{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        margin-left: 70px;
+    }
+    .change-habit-img > .change-habit-img1{
+        margin-top: 90px;
+    }
     
     
 }
 
-/* -----responsive big screen------ */
+/* -----responsive medium device------ */
 
 @media screen and (min-width:576px) and (max-width:992px){
+
+
     .navbar{
         justify-content: space-between;
         margin-left: 150px;
@@ -434,7 +453,7 @@ main{
         margin: 0 auto;
     }
     .banner-1-img{
-        margin-left: 280px;
+        margin-left: 380px;
     }
     .box{
         top: 350px;
@@ -445,5 +464,23 @@ main{
         top: 50px;
         right: 400px;
     }
+    .change-habit{
+        max-width: 992px;
+        margin: 0 auto;
+    }
+
+    .change-habit{
+        margin-top: 740px;
+    }
+    .change-habit-content{
+        margin-left: 300px;
+    }
+    .change-habit-img{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        column-gap: 10px;
+        margin-left: 320px;
+    }
+   
 
 }
