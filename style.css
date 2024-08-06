@@ -228,6 +228,9 @@ main{
 }
 
 /* --------change habit section------- */
+.change-habit{
+    margin-bottom: 100px;
+}
 
 .change-habit-content {
     margin: 0 auto;
@@ -385,6 +388,86 @@ main{
     font-size: 14px;
     font-weight: 400;
     margin-top: 2px;
+}
+
+/* -------------run extra section----------- */
+.run-extra {
+
+
+    width: 1060px;
+    height: 371px;
+    /* border: 2px solid red; */
+
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.run-extra-content {
+
+
+    width: 27.69rem;
+    height: 18.12rem;
+    margin-left: 3.36rem;
+    margin-top: 2.56rem;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.run-extra-btn {
+    width: 150px;
+    height: 44px;
+    border-radius: 42px;
+    color: white;
+    background: rgb(230, 83, 60);
+    border: none;
+    font-size: 12px;
+    margin-top: 34px;
+}
+
+.run-extra-content h1 {
+    width: 443px;
+    height: 116px;
+
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.run-extra-content p {
+    width: 443px;
+    height: 72px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    margin-top: 14px;
+}
+.run-extra-img {
+    width: 366px;
+    height: 312px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: 32px;
+    margin-top: 30px;
+    border-radius: 18px;
+    background-image: url(images/run.jpg);
+    background-position: center;
+    background-size: 320%;
+    background-position-x: 215%;
+    background-position-y: 30%;
 }
 
 
