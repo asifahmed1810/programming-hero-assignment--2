@@ -481,15 +481,23 @@ main{
     .navlinks{
         display: none; 
     }
+    .navbar h3{
+        margin-left: 20px;
+    }
    
 
      .bar{
         display: inline;
         margin-top: 55px;
+       
     }
     .banner-1{
         display: flex;
         flex-direction: column;
+        margin-left: 20px;
+    }
+    .banner-1-img img{
+        margin-left: 20px;
     }
 
     .box{
@@ -502,6 +510,7 @@ main{
     }
     .change-habit{
         margin-top: 500px;
+        margin-left: 30px;
     }
     .change-habit{
         margin-top: 850px;
@@ -516,6 +525,57 @@ main{
     }
     .change-habit-img > .change-habit-img1{
         margin-top: 90px;
+    }
+
+    .run-extra {
+        height: 531px;
+        max-width: 360px;
+        margin-left: 70px;
+       
+        display: flex;
+        flex-direction: column;
+        margin-top: 1150px;
+    }
+
+    .run-extra-content {
+     
+        max-width: 220px;
+        height: 264px;
+        margin-left: 10px;
+        margin-top: 10px;
+      
+    }
+
+    .run-extra-content h1 {
+        font-size: 32px;
+
+
+    }
+
+    .run-extra-content p {
+        font-size: 14px;
+        width: 287px;
+        height: 96px;
+        /* border: 2px solid wheat; */
+    }
+
+    .run-extra-img {
+        width: 250px;
+        height: 170px;
+      
+    }
+
+    .run-extra-btn{
+        margin-top: 28px;
+        margin: 0 auto;
+        margin-left: 65px;
+    }
+    .run-extra-img{
+        margin-right: 60px;
+        background-size: 180%;
+        background-position-x: 75%;
+        background-position-y: 25%;
+        
     }
     
     
@@ -563,6 +623,10 @@ main{
         grid-template-columns: repeat(2 , 1fr);
         column-gap: 10px;
         margin-left: 320px;
+    }
+    .run-extra{
+        margin-top: 400px;
+        margin-left: 120px;
     }
    
 
