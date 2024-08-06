@@ -253,3 +253,30 @@ header {
     
     
 }
+
+/* -----responsive big screen------ */
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .navbar{
+        justify-content: space-between;
+        margin-left: 150px;
+    }
+    .banner-1{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .banner-1-img{
+        margin-left: 280px;
+    }
+    .box{
+        top: 350px;
+        right: 650px;
+
+    }
+    .box-2{
+        top: 50px;
+        right: 400px;
+    }
+
+}
