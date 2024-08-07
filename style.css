@@ -1213,6 +1213,88 @@ td {
     left: 10px;
 }
 
+/* ------footer part style ------- */
+
+.footer-part {
+    position: relative;
+    width: 1500px;
+    height: 487px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.footer-content {
+    position: absolute;
+    width: 1059px;
+    height: 250px;
+    left: 235px;
+    top: 68px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 80px;
+}
+
+.footer-content-l h2 {
+    color: rgb(230, 83, 60);
+    margin-top: 0;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+.footer-content-l p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.footer-content-r {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content-r h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-left: 30px;
+}
+
+.footer-content-r ul>li {
+    list-style: none;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+hr {
+    position: absolute;
+    top: 400px;
+    width: 1059.5px;
+    height: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    left: 235px;
+}
+
+#copyright {
+    position: absolute;
+    top: 410px;
+    left: 630px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
 
 
 
@@ -1224,6 +1306,8 @@ td {
 
     body {
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .navbar {
