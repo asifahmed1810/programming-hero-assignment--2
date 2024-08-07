@@ -11,7 +11,7 @@ body {
 header {
     max-width: 1440px;
     height: 715px;
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     margin: 0 auto;
     /* border: 2px solid red; */
     margin-bottom: 100px;
@@ -980,6 +980,237 @@ td {
     letter-spacing: 0.3px;
     text-align: left;
     margin-left: 10px;
+}
+
+/* --------meet team section---------- */
+
+.meet-our-team {
+    width: 1060px;
+    height: 782px;
+    margin: 0 auto;
+    margin-bottom: 88px;
+}
+
+.meet-team-content {
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+
+}
+
+.meet-team-content h1 {
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.meet-team-content p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.meet-team-img {
+    width: 1070px;
+    height: 604px;
+    margin-top: 58px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px 10px;
+
+}
+
+.meet-team-img1,
+.meet-team-img2,
+.meet-team-img3,
+.meet-team-img4,
+.meet-team-img5,
+.meet-team-img6 {
+    width: 320px;
+    height: 272px;
+    border-radius: 18px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.meet-team-img1 {
+    position: relative;
+    background-image: url(images/trainer1.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+
+.meet-team-img1 h4 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    top: 190px;
+    left: 10px;
+}
+
+.meet-team-img1 p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+    top: 235px;
+    left: 10px;
+}
+
+.meet-team-img2 {
+    position: relative;
+    background-image: url(images/trainer2.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+
+.meet-team-img2 h4 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    top: 190px;
+    left: 10px;
+}
+
+.meet-team-img2 p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+    top: 235px;
+    left: 10px;
+}
+
+.meet-team-img3 {
+    position: relative;
+    background-image: url(images/trainer3.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+
+.meet-team-img3 h4 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    top: 190px;
+    left: 10px;
+}
+
+.meet-team-img3 p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+    top: 235px;
+    left: 10px;
+}
+
+.meet-team-img4 {
+    position: relative;
+    background-image: url(images/trainer4.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-position: 50%;
+}
+
+.meet-team-img4 h4 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    top: 190px;
+    left: 10px;
+}
+
+.meet-team-img4 p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+    top: 235px;
+    left: 10px;
+}
+
+.meet-team-img5 {
+    position: relative;
+    background-image: url(images/trainer5.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-position: 0%;
+}
+
+.meet-team-img5 h4 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    top: 190px;
+    left: 10px;
+}
+
+.meet-team-img5 p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+    top: 235px;
+    left: 10px;
+}
+
+.meet-team-img6 {
+    position: relative;
+    background-image: url(images/trainer6.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+
+.meet-team-img6 h4 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    top: 190px;
+    left: 10px;
+}
+
+.meet-team-img6 p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+    top: 235px;
+    left: 10px;
 }
 
 
