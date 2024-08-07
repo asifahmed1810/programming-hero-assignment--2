@@ -845,7 +845,7 @@ td {
 /* ---------extra design part------- */
 
 .extra-design {
-    width: 1060px;
+    max-width: 1060px;
     height: 800px;
     margin: 0 auto;
     margin-bottom: 88px;
@@ -853,7 +853,7 @@ td {
 }
 
 .extra-design-header {
-    width: 450px;
+    max-width: 450px;
     height: 70px;
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.1);
@@ -863,7 +863,7 @@ td {
 .extra-design-header h1 {
     color: rgb(255, 255, 255);
     margin-top: 7px;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 400;
     line-height: 120%;
     text-align: center;
@@ -885,7 +885,7 @@ td {
 }
 
 .extra-content {
-    width: 1050px;
+    max-width: 1050px;
     height: 550px;
     margin: 0 auto;
     margin-top: 50px;
@@ -906,7 +906,7 @@ td {
 .extra-content-1 h3 {
     color: rgb(255, 255, 255);
     margin-top: 10px;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 400;
     line-height: 120%;
     margin-left: 5px;
@@ -914,7 +914,7 @@ td {
 
 .extra-content-1 p {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 0.87rem;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0.3px;
@@ -936,7 +936,7 @@ td {
 .extra-content-2 h3 {
     color: rgb(255, 255, 255);
     margin-top: 10px;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 400;
     line-height: 120%;
     margin-left: 5px;
@@ -945,8 +945,8 @@ td {
 .extra-content-2 p {
     color: rgba(255, 255, 255, 0.5);
 
-    font-size: 14px;
-    font-weight: 00;
+    font-size: 0.87rem;
+    font-weight: 400;
     line-height: 22px;
     letter-spacing: 0.3px;
     text-align: left;
@@ -965,7 +965,7 @@ td {
 .extra-content-3 h3 {
     color: rgb(255, 255, 255);
     margin-top: 10px;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 500;
     line-height: 120%;
     margin-left: 5px;
@@ -974,7 +974,7 @@ td {
 .extra-content-3 p {
     color: rgba(255, 255, 255, 0.5);
 
-    font-size: 14px;
+    font-size: 0.87rem;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0.3px;
@@ -992,7 +992,11 @@ td {
 @media screen and (max-width:576px) {
 
     body{
-        max-width: 430px;
+        width: 430px;
+    }
+    .navbar{
+        width: 430px;;
+        justify-content: space-between;
     }
 
     .navlinks {
@@ -1001,22 +1005,34 @@ td {
 
     .navbar h3 {
         margin-left: 20px;
+        font-size: 36px;
     }
 
 
     .bar {
+        
         display: inline;
         margin-top: 55px;
 
     }
 
     .banner-1 {
+      
         display: flex;
         flex-direction: column;
         margin-left: 20px;
     }
+    .banner-1-content{
+        width: 430px;
+       
+    }
+    .banner-1-img{
+        width: 430px;
+        margin-bottom: 20px;
+    }
 
     .banner-1-img img {
+        width: 100%;
         margin-left: 20px;
     }
 
@@ -1030,32 +1046,36 @@ td {
         right: 10px;
     }
 
-    .change-habit {
-        margin-top: 500px;
-        margin-left: 30px;
-    }
+    
 
     .change-habit {
         margin-top: 850px;
+        margin-left: 30px;
     }
 
     .change-habit-content {
+        width: 430px;
         margin-bottom: 10px;
+        margin-left: 50px;
     }
 
     .change-habit-img {
+        width: 430px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 70px;
+        margin-left: 150px;
     }
 
-    .change-habit-img>.change-habit-img1 {
+    .change-habit-img1 {
+       
         margin-top: 90px;
+       
+        
     }
 
     .run-extra {
         height: 531px;
-        max-width: 360px;
+        width: 430px;
         margin-left: 70px;
 
         display: flex;
@@ -1065,7 +1085,7 @@ td {
 
     .run-extra-content {
 
-        max-width: 220px;
+        width: 430px;
         height: 264px;
         margin-left: 10px;
         margin-top: 10px;
@@ -1087,8 +1107,9 @@ td {
     }
 
     .run-extra-img {
-        width: 250px;
+        width: 350px;
         height: 170px;
+        margin-left: 40px;
 
     }
 
@@ -1107,7 +1128,8 @@ td {
     }
 
     .training-content {
-        margin-left: 30px;
+        width: 430px;
+        margin-left: 40px;
 
     }
 
@@ -1172,10 +1194,10 @@ td {
     }
 
     .bmi {
-        width: 390px;
+        width: 430px;
         display: flex;
         flex-direction: column;
-        margin-left: 30px;
+        margin-left: 40px;
     }
 
     .bmi-content {
@@ -1209,6 +1231,35 @@ td {
     .bmi-input-longbar i{
         position: absolute;
         left: 360px;
+    }
+    /* -------- */
+    .extra-design-header{
+        margin-left: 30px;
+    }
+    .extra-btn{
+        margin-left: 30px;
+    }
+    .extra-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .extra-content-1{
+        width: 430px;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .extra-content-2{
+        width: 430px;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .extra-content-3{
+        width: 430px;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
     }
 
 
@@ -1274,6 +1325,40 @@ td {
 
     .training {
         margin-left: 250px;
+    }
+
+    .bmi-header {
+        max-width: 671px;
+        height: 120px;
+        margin: 0 auto;
+        margin-bottom: 88px;
+    }
+    .bmi-content {
+        width: 980px;
+        height: 487px;
+        background: rgb(34, 34, 34);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 88px;
+        margin-left: 120px;
+    }
+    .bmi-content-l table {
+        max-width: 310px;
+        height: 216px;
+        margin-left: 80px;
+    
+    }
+
+    .extra-design-header{
+        margin-left: 390px;
+    }
+    .extra-btn{
+        margin-left: 550px;
+    }
+
+
+    .extra-content{
+        margin-left: 120px;
     }
 
 
