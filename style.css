@@ -1237,7 +1237,7 @@ td {
 .footer-content-l h2 {
     color: rgb(230, 83, 60);
     margin-top: 0;
-    font-size: 70px;
+    font-size: 4.4rem;
     font-weight: 800;
     line-height: 120%;
     margin-bottom: 0;
@@ -1246,7 +1246,7 @@ td {
 .footer-content-l p {
     color: rgba(255, 255, 255, 0.5);
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 0.88rem;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
@@ -1260,7 +1260,7 @@ td {
 .footer-content-r h3 {
     color: rgb(255, 255, 255);
     margin-top: 0;
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: 700;
     line-height: 120%;
     margin-left: 30px;
@@ -1270,7 +1270,7 @@ td {
     list-style: none;
     margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.5);
-    font-size: 19px;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 120%;
 }
@@ -1289,7 +1289,7 @@ hr {
     top: 410px;
     left: 630px;
     color: rgba(255, 255, 255, 0.5);
-    font-size: 17px;
+    font-size: 1.1rem;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
@@ -1312,7 +1312,7 @@ hr {
 
     .navbar {
         width: 100%;
-     
+
         justify-content: space-between;
     }
 
@@ -1598,7 +1598,7 @@ hr {
         width: 309px;
         height: 124px;
         margin-left: 40px;
-        
+
     }
 
     .meet-team-img {
@@ -1609,6 +1609,45 @@ hr {
         margin-left: 30px;
         margin-top: 130px;
 
+    }
+
+    .footer-part {
+        margin-top: 1300px;
+        height: 886px;
+        width: 100%;
+    }
+
+    .footer-content {
+        width: 353px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        left: 20px;
+    }
+
+    .footer-content-l p {
+        width:  353px;
+        height: 96px;
+
+
+    }
+
+    .footer-content-r {
+        width: 353px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        left: 30px;
+    }
+
+    hr{
+        width: 100%;
+        top: 800px;
+        left: 20px;
+    }
+    #copyright{
+        width: 318px;
+        top: 800px;
+        left: 60px;
     }
 
 
@@ -1713,8 +1752,8 @@ hr {
         margin-left: 120px;
     }
 
-    .meet-our-team{
-        margin-left: 10g0px;
+    .meet-our-team {
+        margin-left: 100px;
     }
 
 
