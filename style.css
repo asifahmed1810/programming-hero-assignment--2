@@ -226,32 +226,42 @@ header {
 
 /* ----navbar and banner-1 design end---- */
 
-/* --------change habit section------- */
+/* -----change habit design start----- */
+
 .change-habit {
-    margin-bottom: 100px;
+    max-width: 1040px;
+    height: 452px;
+    margin: 0 auto;
+    /* border: 2px solid white; */
+    margin-top: 50px;
+
 }
 
 .change-habit-content {
-    margin: 0 auto;
-    max-width: 671px;
-    height: 120px;
-    margin-bottom: 58px;
     text-align: center;
 }
 
-.change-habit h1 {
+.change-habit-content h1 {
     color: rgb(255, 255, 255);
-    margin-top: 0;
-    font-size: 3rem;
+    font-family: Inter;
+    font-size: 48px;
     font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
-.change-habit p {
+.change-habit-content p {
     color: rgba(255, 255, 255, 0.5);
-    margin-top: 14px;
-    font-size: 1rem;
+    font-family: Inter;
+    font-size: 14px;
     font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 14px;
+    margin-bottom: 50px;
+
 }
 
 .change-habit-img {
@@ -391,6 +401,8 @@ header {
     font-weight: 400;
     margin-top: 2px;
 }
+
+/* -----change habit design end----- */
 
 /* -------------run extra section----------- */
 .run-extra {
