@@ -1969,10 +1969,16 @@ hr{
     .banner-1 {
         display: flex;
         flex-direction: column;
+        height: 900px;
+    }
+    .banner-1-image{
+        margin-left: 0;
+        height: 500px;
     }
 
     .banner-1-image img {
-        width: 50%;
+        width: 80%;
+        height: 500px;
         margin-left: 300px;
     }
 
@@ -1982,12 +1988,17 @@ hr{
     }
 
     .box-2 {
-        top: 620px;
+        top: 690px;
+        right: 250px;
     }
 
     /* ----navbar and banner-1 design end---- */
 
     /* -----change habit design start----- */
+
+    .change-habit{
+        margin-top: 100px;
+    }
 
     .change-habit-img {
         display: grid;
