@@ -1350,164 +1350,117 @@ hr{
 
 
 
-/*----------responsive style---------  */
+
 @media screen and (max-width:576px) {
 
-    body {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
+    /* ----navbar and banner-1 design start---- */
     .navbar {
-        width: 430px;
+        width: 100%;
 
-        justify-content: space-between;
     }
 
-    .navlinks {
+    .navbar>ul {
         display: none;
     }
 
-    .navbar h3 {
-        margin-left: 20px;
-        font-size: 36px;
-    }
-
-
     .bar {
-
         display: inline;
-        margin-top: 55px;
-
+        margin-top: 60px;
+        margin-right: 20px;
     }
 
     .banner-1 {
-
         display: flex;
         flex-direction: column;
-        margin-left: 20px;
     }
 
-    .banner-1-content {
-        width: 430px;
-
+    .banner-1-content h1 {
+        font-size: 36px;
     }
 
-    .banner-1-img {
-        width: 430px;
-        margin-bottom: 20px;
-    }
-
-    .banner-1-img img {
-        width: 100%;
-        margin-left: 20px;
+    .banner-1-font {
+        font-size: 36px;
     }
 
     .box {
-        top: 250px;
-        right: 160px;
+        right: 200px;
+        top: 720px;
     }
 
     .box-2 {
-        top: 60px;
-        right: 10px;
+        top: 500px;
+        right: 20px;
     }
 
+    /* ----navbar and banner-1 design end---- */
 
+    /* -----change habit design start----- */
 
     .change-habit {
-        margin-top: 850px;
-        margin-left: 30px;
+        height: 1350px;
     }
 
-    .change-habit-content {
-        width: 430px;
-        margin-bottom: 10px;
-        margin-left: 50px;
+    .change-habit-content h1 {
+        font-size: 32px;
     }
 
     .change-habit-img {
-        width: 430px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 150px;
+        margin-left: 70px;
     }
 
-    .change-habit-img1 {
+    /* -----change habit design end----- */
 
-        margin-top: 90px;
-
-
-    }
+    /* -----run extra design start------ */
 
     .run-extra {
-        height: 531px;
-        width: 430px;
-        margin-left: 70px;
-
-        display: flex;
-        flex-direction: column;
-        margin-top: 1150px;
+        height: 600px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* border: 2px solid white; */
     }
 
     .run-extra-content {
-
-        width: 430px;
-        height: 264px;
-        margin-left: 10px;
-        margin-top: 10px;
-
+        margin-left: 0;
     }
 
     .run-extra-content h1 {
         font-size: 32px;
-        margin-left: 10px;
-
-
-    }
-
-    .run-extra-content p {
-        font-size: 14px;
-        width: 287px;
-        height: 96px;
-        /* border: 2px solid wheat; */
     }
 
     .run-extra-img {
-        width: 350px;
-        height: 170px;
-        margin-left: 40px;
+        width: 100%;
+        height: 270px;
+        /* margin-left: 20px; */
+        margin-top: 0;
+        background-size: 220%;
+        background-position-x: 255%;
+        background-position-y: 30%;
 
     }
+    /* -----run extra design end------ */
 
-    .run-extra-btn {
-        margin-top: 28px;
-        margin: 0 auto;
-        margin-left: 65px;
+    /* ----training design start */
+
+    .training{
+        height: 460px;
+    }
+    
+    #train-img-3rd {
+        display: none;
     }
 
-    .run-extra-img {
-        margin-right: 60px;
-        background-size: 180%;
-        background-position-x: 75%;
-        background-position-y: 25%;
-
+    #train-img-6th {
+        display: none;
+    }
+    #train-img-4th {
+        display: none;
     }
 
-    .training-content {
-        width: 430px;
-        margin-left: 40px;
-
+    #train-img-5th {
+        display: none;
     }
-
-    .training-img {
-        margin-left: 30px;
-        margin-top: 100px;
-
-
-    }
-
     .training-img1>#train-img-1st {
         position: relative;
         width: 462px;
@@ -1530,281 +1483,510 @@ hr{
         background-blend-mode: overlay;
     }
 
-    .training-img1>#train-img-4th {
-        position: relative;
-        width: 462px;
-        height: 200px;
-        background-image: url(images/exercise4.png);
-        background-size: cover;
-        margin-top: 0;
-        background-color: rgba(6, 255, 210, 0.5);
-        background-blend-mode: overlay;
+    /* -----bmi-design-section----- */
+
+    .bmi-content{
+        height: 800px;
+    }
+    .ban-in input{
+        max-width: 120px;
     }
 
-    .training-img1>#train-img-5th {
-        position: relative;
-        width: 462px;
-        height: 200px;
-        background-image: url(images/exercise5.jpg);
-        background-size: cover;
-        margin-top: 0;
-        background-color: rgba(6, 255, 210, 0.5);
-        background-blend-mode: overlay;
-    }
-
-
-    #train-img-3rd {
-        display: none;
-    }
-
-    #train-img-6th {
-        display: none;
-    }
-
-    .bmi {
-        width: 430px;
+    .bmi-content{
         display: flex;
         flex-direction: column;
-        margin-left: 40px;
+    }
+  
+    .bmi-input-custom-1 input {
+
+        width: 126px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        text-align: start;
+        margin-bottom: 5px;
+        padding-left: 20px;
+        
+    }
+    .bmi-input-custom-2 input {
+
+        width: 126px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        text-align: start;
+        margin-bottom: 5px;
+        padding-left: 20px;
+        margin-left: 5px;
+        
+    }
+    .bmi-input-custom-3 input {
+
+        width: 126px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        text-align: start;
+        margin-bottom: 5px;
+        padding-left: 20px;
+        
+    }
+    .bmi-input-custom-4 input {
+
+        width: 126px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        text-align: start;
+        margin-bottom: 5px;
+        padding-left: 20px;
+        margin-left: 5px;
+        
+    }
+   .bmi-input-custom-4 i{
+    right: 130px;
+   }
+    
+    .bmi-input-longbar input{
+        width: 296px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        
+        
+    
+    
+    }
+    #long{
+        right: 131px;
     }
 
-    .bmi-content {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+    /* -----bmi-design-section end----- */
 
-        width: 394px;
-        height: 832px;
+    /* -----extra design start---- */
+
+    .extra-design{
+        height: 1140px;
     }
 
-    .bmi-content-l h3 {
+    .extra-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .extra-content-1{
+        margin-top: 30px;
+        border-radius: 18px;
+        background: rgb(33, 40, 53);
+    }
+    .extra-content-1 h3 {
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+        font-size: 1.75rem;
+        font-weight: 400;
+        line-height: 120%;
+        margin-left: 5px;
+    }
+    .extra-content-1 p {
+        color: rgba(255, 255, 255, 0.5);
+    
+        font-size: 0.87rem;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.3px;
         text-align: left;
-        margin-left: 10px;
+       
     }
 
-    .bmi-content-l table {
-        margin-left: 10px;
-    }
-
-    .bmi-content-r {
-        width: 354px;
-        height: 395px;
-    }
-
-    .bmi-input-custom input {
-        width: 170.5px;
-    }
-
-    .bmi-input-longbar input {
-        width: 368px;
-    }
-
-    .bmi-input-longbar i {
-        position: absolute;
-        left: 360px;
-    }
-
-    /* -------- */
-    .extra-design-header {
-        margin-left: 30px;
-    }
-
-    .extra-btn {
-        margin-left: 30px;
-    }
-
-    .extra-content {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .extra-content-1 {
-        width: 430px;
-        margin-top: 20px;
-        margin-left: 30px;
-        margin-bottom: 30px;
-    }
 
     .extra-content-2 {
-        width: 430px;
-        margin-top: 20px;
-        margin-left: 30px;
-        margin-bottom: 30px;
+        margin-top: 30px;
+        border-radius: 18px;
+        background: rgb(74, 38, 38);
+    
+    
+    }
+    
+    .extra-content-2 h3 {
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+        font-size: 1.75rem;
+        font-weight: 400;
+        line-height: 120%;
+      
+    }
+    
+    .extra-content-2 p {
+        color: rgba(255, 255, 255, 0.5);
+    
+        font-size: 0.87rem;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        text-align: left;
+       
     }
 
     .extra-content-3 {
-        width: 430px;
-        margin-top: 20px;
-        margin-left: 30px;
-        margin-bottom: 30px;
+    
+        margin-top: 30px;
+        border-radius: 18px;
+        background: rgb(69, 57, 37);
     }
-
-    .meet-our-team {
-        width: 100%;
-        margin-top: 900px;
+    
+    .extra-content-3 h3 {
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+        font-size: 1.75rem;
+        font-weight: 500;
+        line-height: 120%;
+       
     }
-
-    .meet-team-content {
-        width: 309px;
-        height: 124px;
-        margin-left: 40px;
-
+    
+    .extra-content-3 p {
+        color: rgba(255, 255, 255, 0.5);
+    
+        font-size: 0.87rem;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        text-align: left;
     }
+      
+    /* -------extra design end----- */
 
-    .meet-team-img {
-        width: 353px;
-        height: 1788px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin-left: 30px;
-        margin-top: 130px;
-
+    /* -----meet-team-start------ */
+    .meet-our-team{
+        height: 1370px;
     }
-
-    .footer-part {
-        margin-top: 1300px;
-        height: 886px;
-        width: 100%;
-    }
-
-    .footer-content {
-        width: 353px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        left: 20px;
-    }
-
-    .footer-content-l p {
-        width:  353px;
-        height: 96px;
-
-
-    }
-
-    .footer-content-r {
-        width: 353px;
+    .meet-team-img{
+        height: 1190px;
         display: flex;
         flex-direction: column;
-        margin-top: 30px;
-        left: 30px;
     }
+    
+.meet-team-img1,
+.meet-team-img2,
+.meet-team-img3,
+.meet-team-img4,
+.meet-team-img5,
+.meet-team-img6 {
+    width: 300px;
+    height: 272px;
+    border-radius: 18px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
 
-    hr{
-        width: 100%;
-        top: 800px;
-        left: 20px;
-    }
-    #copyright{
-        width: 318px;
-        top: 800px;
-        left: 60px;
-    }
+.meet-team-img1 {
+    position: relative;
+    background-image: url(images/trainer1.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    display: none;
+}
 
+.meet-team-img1 h4 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    top: 190px;
+    left: 10px;
+}
 
+.meet-team-img1 p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+    top: 235px;
+    left: 10px;
+}
 
+.meet-team-img2 {
+    position: relative;
+    background-image: url(images/trainer2.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+
+.meet-team-img2 h4 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    top: 190px;
+    left: 10px;
+}
+
+.meet-team-img2 p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+    top: 235px;
+    left: 10px;
+}
+
+.meet-team-img3 {
+    position: relative;
+    background-image: url(images/trainer3.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+   
+    
+}
+
+.meet-team-img3 h4 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    top: 190px;
+    left: 10px;
+}
+
+.meet-team-img3 p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+    top: 235px;
+    left: 10px;
+}
+
+.meet-team-img4 {
+    position: relative;
+    background-image: url(images/trainer4.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-position: 50%;
+    display: none;
+}
+
+.meet-team-img4 h4 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    top: 190px;
+    left: 10px;
+}
+
+.meet-team-img4 p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+    top: 235px;
+    left: 10px;
+}
+
+.meet-team-img5 {
+    position: relative;
+    background-image: url(images/trainer5.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-position: 0%;
+}
+
+.meet-team-img5 h4 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    top: 190px;
+    left: 10px;
+}
+
+.meet-team-img5 p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+    top: 235px;
+    left: 10px;
+}
+
+.meet-team-img6 {
+    position: relative;
+    background-image: url(images/trainer6.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+
+.meet-team-img6 h4 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    top: 190px;
+    left: 10px;
+}
+
+.meet-team-img6 p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+    top: 235px;
+    left: 10px;
+}
+
+/* ----meet team design end----- */
+
+/* ----footer part start---- */
+.footer{
+    height: 800px;
+}
+.footer-part{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+.footer-content-l{
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.footer-content-l h2 {
+    color: rgb(230, 83, 60);
+    margin-top: 0;
+    font-size: 4.4rem;
+    font-weight: 800;
+    line-height: 120%;
+    margin-bottom: 0;
+    
+}
+
+.footer-content-l p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.footer-content-r{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content-r h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 120%;
+    /* margin-left: 30px; */
+}
+
+.footer-content-r ul>li {
+    list-style: none;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 120%;
+    
+}
+hr{
+    width: 100%;
+    height: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-left: 1px;
+}
+#copyright{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+#footer-r-1{
+    margin-left: 0px;
+}
+
+#footer-r-2{
+    margin-left: 0px;
+}
+#footer-r-2-li{
+    margin-left: 0px;
+}
+
+    
+
+   
+   
+
+   
 
 }
 
-/* -----responsive medium device------ */
-
 @media screen and (min-width:576px) and (max-width:992px) {
 
-
-    .navbar {
-        justify-content: space-between;
-        margin-left: 150px;
-    }
+    /* ----navbar and banner-1 design start---- */
 
     .banner-1 {
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
     }
 
-    .banner-1-img {
-        margin-left: 380px;
+    .banner-1-image img {
+        width: 50%;
+        margin-left: 300px;
     }
 
     .box {
-        top: 350px;
-        right: 650px;
-
+        top: 900px;
+        right: 500px;
     }
 
     .box-2 {
-        top: 50px;
-        right: 400px;
+        top: 620px;
     }
 
-    .change-habit {
-        max-width: 992px;
-        margin: 0 auto;
-    }
+    /* ----navbar and banner-1 design end---- */
 
-    .change-habit {
-        margin-top: 740px;
-    }
-
-    .change-habit-content {
-        margin-left: 300px;
-    }
+    /* -----change habit design start----- */
 
     .change-habit-img {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
         column-gap: 10px;
-        margin-left: 320px;
+        margin-left: 90px;
     }
 
-    .run-extra {
-        margin-top: 400px;
-        margin-left: 120px;
+    /* -----change habit design end----- */
+
+    /* -----run extra design start------ */
+    .run-extra{
+        margin-top: 280px;
     }
-
-    .training {
-        margin-left: 250px;
-    }
-
-    .bmi-header {
-        max-width: 671px;
-        height: 120px;
-        margin: 0 auto;
-        margin-bottom: 88px;
-    }
-
-    .bmi-content {
-        width: 980px;
-        height: 487px;
-        background: rgb(34, 34, 34);
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin-bottom: 88px;
-        margin-left: 120px;
-    }
-
-    .bmi-content-l table {
-        max-width: 310px;
-        height: 216px;
-        margin-left: 80px;
-
-    }
-
-    .extra-design-header {
-        margin-left: 390px;
-    }
-
-    .extra-btn {
-        margin-left: 550px;
-    }
-
-
-    .extra-content {
-        margin-left: 120px;
-    }
-
-    .meet-our-team {
-        margin-left: 100px;
-    }
-
-
-
+    /* -----run extra design end------ */
 }
