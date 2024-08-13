@@ -670,7 +670,7 @@ header {
 
 /* ---------training section design end-------- */
 
-/* ----------bmi section----------- */
+/* ----bmi design start------ */
 
 
 .bmi-header {
@@ -722,7 +722,7 @@ header {
 .bmi-content-l table {
     max-width: 310px;
     height: 216px;
-    margin-left: 220px;
+    margin:0 auto;
 
 }
 
@@ -773,60 +773,107 @@ td {
     margin-bottom: 34px;
 }
 
+.bmi-content-r{
+    /* display: none; */
+}
+
 .bmi-input {
     position: relative;
     max-width: 577px;
     height: 108px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
-    row-gap: 10px;
+    
+   
+}
+.bmi-div-1{
+    display: flex;
+    /* margin-top: 5px; */
+}
+.bmi-div-2{
+    display: flex;
 }
 
-.bmi-input-custom input {
+.bmi-input-custom-1 input {
 
-    width: 261.5px;
+    width: 236px;
     height: 48px;
     border-radius: 8px;
     border: none;
     background: rgba(255, 255, 255, 0.1);
     text-align: start;
+    margin-bottom: 5px;
     padding-left: 20px;
 }
 
-.bmi-input-custom i {
-    position: absolute;
-    right: 35px;
-    width: 12px;
-    height: 6px;
-    color: rgba(255, 255, 255, 0.4);
-    top: 75px;
-}
+.bmi-input-custom-2 input {
 
-
-
-.bmi-input-longbar input {
-    width: 557px;
+    width: 236px;
     height: 48px;
     border-radius: 8px;
     border: none;
     background: rgba(255, 255, 255, 0.1);
+    text-align: start;
+    margin-bottom: 5px;
     padding-left: 20px;
-    margin-top: 12px;
+    margin-left: 5px;
 }
 
-.bmi-input-longbar {
-    position: relative;
+.bmi-input-custom-3 input {
+
+    width: 236px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: start;
+    margin-bottom: 5px;
+    padding-left: 20px;
 }
 
-.bmi-input-longbar i {
+.bmi-input-custom-4 input {
+
+    width: 236px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: start;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    margin-left: 5px;
+}
+
+.bmi-input-custom-4 i {
     position: absolute;
+    right: 81px;
     width: 12px;
     height: 6px;
-    top: 25px;
-    left: 530px;
     color: rgba(255, 255, 255, 0.4);
+    top:73px;
 }
+
+.bmi-input-longbar input{
+    width: 517px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 3px;
+    
+
+
+}
+#long{
+    right: 80px;
+    top: 125px;
+}
+
+
+
+
+
+
+
+
 
 .bmi-btn {
     width: 150px;
@@ -838,6 +885,8 @@ td {
     font-size: 12px;
     margin-top: 25px;
 }
+
+/* ----bmi design end------ */
 
 /* ---------extra design part------- */
 
