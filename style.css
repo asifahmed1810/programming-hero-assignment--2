@@ -888,16 +888,16 @@ td {
 
 /* ----bmi design end------ */
 
-/* ---------extra design part------- */
+/* ----extra design section start----- */
 
-.extra-design {
-    max-width: 1060px;
+.extra-design{
+    max-width: 1044px;
     height: 800px;
     margin: 0 auto;
     margin-bottom: 88px;
-
+   
+    border-radius: 18px;
 }
-
 .extra-design-header {
     max-width: 450px;
     height: 70px;
@@ -916,8 +916,14 @@ td {
     letter-spacing: 5px;
 
 }
-
-.extra-btn {
+.extra-btn{
+    max-width: 160px;
+    height: 60px;
+    margin: 0 auto;
+   
+    margin-top: 20px;
+}
+.extra-btn-1{
     width: 150px;
     height: 44px;
     border-radius: 42px;
@@ -925,30 +931,24 @@ td {
     background: rgb(230, 83, 60);
     border: none;
     font-size: 12px;
-    margin-left: 450px;
-    margin-top: 10px;
-
+    
 }
-
-.extra-content {
+.extra-content{
     max-width: 1050px;
     height: 550px;
     margin: 0 auto;
     margin-top: 50px;
+    /* border: 2px solid white; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
-
 }
 
-.extra-content-1 {
-    width: 320px;
-    height: 440px;
+.extra-content-1{
     margin-top: 70px;
     border-radius: 18px;
     background: rgb(33, 40, 53);
 }
-
 .extra-content-1 h3 {
     color: rgb(255, 255, 255);
     margin-top: 10px;
@@ -957,22 +957,20 @@ td {
     line-height: 120%;
     margin-left: 5px;
 }
-
 .extra-content-1 p {
     color: rgba(255, 255, 255, 0.5);
+
     font-size: 0.87rem;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0.3px;
     text-align: left;
-    margin-left: 10px;
+   
 }
 
 
-
 .extra-content-2 {
-    width: 320px;
-    height: 440px;
+    margin-top: 0px;
     border-radius: 18px;
     background: rgb(74, 38, 38);
 
@@ -985,7 +983,7 @@ td {
     font-size: 1.75rem;
     font-weight: 400;
     line-height: 120%;
-    margin-left: 5px;
+  
 }
 
 .extra-content-2 p {
@@ -996,12 +994,10 @@ td {
     line-height: 22px;
     letter-spacing: 0.3px;
     text-align: left;
-    margin-left: 10px;
+   
 }
 
 .extra-content-3 {
-    width: 320px;
-    height: 440px;
 
     margin-top: 70px;
     border-radius: 18px;
@@ -1014,7 +1010,7 @@ td {
     font-size: 1.75rem;
     font-weight: 500;
     line-height: 120%;
-    margin-left: 5px;
+   
 }
 
 .extra-content-3 p {
@@ -1025,23 +1021,19 @@ td {
     line-height: 22px;
     letter-spacing: 0.3px;
     text-align: left;
-    margin-left: 10px;
+  
 }
 
-/* --------meet team section---------- */
+/* ------extra design section end----- */
+
+/* ----meet team design start----- */
 
 .meet-our-team {
-    width: 1060px;
+    max-width: 1044px;
     height: 782px;
     margin: 0 auto;
     margin-bottom: 88px;
-}
-
-.meet-team-content {
-    width: 671px;
-    height: 120px;
-    margin: 0 auto;
-
+    /* border: 2px solid red; */
 }
 
 .meet-team-content h1 {
@@ -1064,16 +1056,16 @@ td {
     text-align: center;
 }
 
-.meet-team-img {
-    width: 1070px;
+.meet-team-img{
+    max-width:  1044px;
     height: 604px;
     margin-top: 58px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
+    /* border: 2px solid white; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 10px 10px;
-
+    column-gap: 0px;
 }
 
 .meet-team-img1,
@@ -1082,13 +1074,12 @@ td {
 .meet-team-img4,
 .meet-team-img5,
 .meet-team-img6 {
-    width: 320px;
+    width: 300px;
     height: 272px;
     border-radius: 18px;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 15px;
 }
-
 .meet-team-img1 {
     position: relative;
     background-image: url(images/trainer1.png);
@@ -1259,27 +1250,41 @@ td {
     left: 10px;
 }
 
-/* ------footer part style ------- */
+/* ----meet team design end----- */
 
-.footer-part {
-    position: relative;
-    width: 1500px;
+/* ----footer part start---- */
+
+.footer{
+    max-width: 1518px;
     height: 487px;
+    margin: 0 auto;
     background: rgba(255, 255, 255, 0.1);
 
 }
 
-.footer-content {
-    position: absolute;
-    width: 1059px;
-    height: 250px;
-    left: 235px;
-    top: 68px;
+.footer-part {
+    max-width: 1518px;
+    height: 400px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+  
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 80px;
+    grid-template-columns: repeat(2,1fr);
+
+    
 }
 
+.footer-content-r{
+    display: flex;
+}
+
+.footer-content-l{
+    max-width: 445px;
+    height: 176px;
+    margin: 0 auto;
+    /* border: 2px solid white; */
+    margin-top: 150px;
+}
 .footer-content-l h2 {
     color: rgb(230, 83, 60);
     margin-top: 0;
@@ -1298,18 +1303,14 @@ td {
     letter-spacing: 0.3px;
 }
 
-.footer-content-r {
-    display: flex;
-    justify-content: space-between;
-}
-
 .footer-content-r h3 {
     color: rgb(255, 255, 255);
     margin-top: 0;
     font-size: 1.9rem;
     font-weight: 700;
     line-height: 120%;
-    margin-left: 30px;
+    /* margin-left: 30px; */
+    margin-top: 135px;
 }
 
 .footer-content-r ul>li {
@@ -1320,25 +1321,27 @@ td {
     font-weight: 400;
     line-height: 120%;
 }
-
-hr {
-    position: absolute;
-    top: 400px;
-    width: 1059.5px;
+#footer-r-1{
+    margin-left: 35px;
+}
+#footer-r-2{
+    margin-left: 98px;
+}
+#footer-r-2-li{
+    margin-left: 70px;
+}
+hr{
+    max-width: 1259.5px;
     height: 0;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    left: 235px;
 }
-
-#copyright {
-    position: absolute;
-    top: 410px;
-    left: 630px;
+#copyright{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
+    text-align: center;
 }
 
 
