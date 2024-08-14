@@ -1501,7 +1501,7 @@ hr{
     /* -----bmi-design-section----- */
 
     .bmi-content{
-        height: 800px;
+        height: 880px;
     }
     .ban-in input{
         max-width: 120px;
@@ -1594,6 +1594,10 @@ hr{
         flex-direction: column;
     }
 
+    .extra-design-header h1{
+        font-size: 32px;
+    }
+
     .extra-content-1{
         margin-top: 30px;
         border-radius: 18px;
@@ -1678,6 +1682,7 @@ hr{
     /* -----meet-team-start------ */
     .meet-our-team{
         height: 1370px;
+        margin-top: 50px;
     }
     .meet-team-img{
         height: 1190px;
@@ -1877,6 +1882,7 @@ hr{
 /* ----footer part start---- */
 .footer{
     height: 800px;
+    margin-top: 50px;
 }
 .footer-part{
     display: flex;
@@ -1891,7 +1897,7 @@ hr{
 .footer-content-l h2 {
     color: rgb(230, 83, 60);
     margin-top: 0;
-    font-size: 4.4rem;
+    font-size: 32px;
     font-weight: 800;
     line-height: 120%;
     margin-bottom: 0;
@@ -1944,10 +1950,12 @@ hr{
 }
 #footer-r-1{
     margin-left: 0px;
+    font-size: 32px;
 }
 
 #footer-r-2{
     margin-left: 0px;
+    font-size: 32px;
 }
 #footer-r-2-li{
     margin-left: 0px;
